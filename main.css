@@ -1,3 +1,37 @@
 h1 {
     text-align: center;
 }
+
+body {
+    margin: 0px;
+}
+
+main {
+    margin: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: #2b2b2b;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    border-bottom: 4px solid #525252;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+    .navbar a:hover {
+        background-color: #1c1c1c;
+    }
+
+
+.navbar li {
+    float: left;
+}
