@@ -25,6 +25,7 @@ main {
     padding: 15px;
     display: block;
     text-align: center;
+    font-family: 'Helvetica';
 }
 
     .navbar a:hover {
@@ -34,4 +35,36 @@ main {
 
 .navbar li {
     float: left;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2b2b2b;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Style for the dropdown links */
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color on hover */
+.dropdown-content a:hover {
+    background-color: #1c1c1c;
+}
+
+/* Show the dropdown content when the mouse is over the dropdown link */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Assets\Fonts\Montserrat-Black.ttf');
 }
